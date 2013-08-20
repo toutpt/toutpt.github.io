@@ -6,20 +6,20 @@ categories: actualités
 tags: test
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Et oui encore un nouveau blog. Le but ici est en premier de tester la technologie
+de jekyll pour réaliser un blog.
 
-Jekyll also offers powerful support for code snippets:
+Cette première prise en main s'avère relativement simple lorsqu'on connait déjà
+des outils comme sphinx.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+En revanche une fois qu'on a terminé le quick start on se rend compte qu'il
+manque plein de chose. Bref une initialization un peu longue.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Ce que j'ai aimé:
+* la génération statique
+* l'hébergement github gratuit
+* la création du site avec le tout nouveau twitter bootstrap 3
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Ce que j'ai moins aimé:
+* la galère avec le baseurl
+* le thème de base
