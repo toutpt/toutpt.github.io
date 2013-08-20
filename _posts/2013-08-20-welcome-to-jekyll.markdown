@@ -16,10 +16,12 @@ En revanche une fois qu'on a terminé le quick start on se rend compte qu'il
 manque plein de chose. Bref une initialization un peu longue.
 
 Ce que j'ai aimé:
-* la génération statique
-* l'hébergement github gratuit
-* la création du site avec le tout nouveau twitter bootstrap 3
+
+- la génération statique
+- l'hébergement github gratuit
+- la création du site avec le tout nouveau twitter bootstrap 3
 
 Ce que j'ai moins aimé:
+
 * la galère avec le baseurl
 * le thème de base
