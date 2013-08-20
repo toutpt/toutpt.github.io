@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include header.html %}
+    <!-- Place anything custom after this. -->
+  </head>
+  <body>
+   <div class="container">
+
+    <!-- Docs master nav -->
+    {% include nav-main.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav">
+<li><a href="http://www.doyoubuzz.com/jeanmichel-francois/" target="_blank"><span class="glyphicon glyphicon-user"></span></a></li>
+<li><a href="//plus.google.com/108081526147163911190?prsrc=3" rel="publisher"><span class="glyphicon glyphicon-google_plus"></span></a></li>
+<li><a href="https://www.twitter.com/toutpt_nantes" target="_blank"><img class="image-inline" src="resolveuid/b1e0d1cf9eae41d6980903c568208afd"></a></li>
+<li><a href="http://www.linkedin.com/profile/view?id=42808053" target="_blank"><img class="image-inline" src="resolveuid/fa93c9057b4c4c1eb27b9f300f38537f"></a></li>
+<li><a href="http://www.viadeo.com/fr/profile/jean-michel.francois3" target="_blank"><img class="image-inline" src="resolveuid/2e1a408ca3844a5fba49e67c40257162"></a></li>
+<li><a href="http://fr.gravatar.com/toutpt" target="_blank"><img class="image-inline" src="resolveuid/072864bb7d8c4c3181d2f2c870b9a148"></a></li>
+<li><a href="http://stackoverflow.com/users/622081/toutpt" target="_blank"><img class="image-inline" src="resolveuid/75ad9590e7f0446292745454cead238e"></a></li>
+<li><a href="https://github.com/toutpt" target="_blank"><img class="image-inline" src="resolveuid/a129432c88074f688db98d0d408ea869"></a></li>
+<li><a href="http://plone.org/author/toutpt" target="_blank"><img class="image-inline" src="resolveuid/84e0e92024cb4a159c705d59bc4bef4f"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9" role="main">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.lead }}</p>
+          {{ content }}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- JS and analytics only. -->
+    {% include footer.html %}
+
+  </body>
+</html>
