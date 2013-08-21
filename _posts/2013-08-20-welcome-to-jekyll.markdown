@@ -23,5 +23,5 @@ Ce que j'ai aimé:
 
 Ce que j'ai moins aimé:
 
-* la galère avec le baseurl
-* le thème de base
+- la galère avec le baseurl
+- le thème de base
