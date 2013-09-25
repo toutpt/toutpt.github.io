@@ -18,3 +18,5 @@ technologie. Par exemple le site de Twitter Bootstrap est réalisé avec Jekyll.
 
 En effet vous pouvez faire un dépot avec votre site jekyll et github s'occupe
 de générer le HTML et de le servir.
+
+[Site Internet officiel de Jekyll](http://jekyllrb.com)
