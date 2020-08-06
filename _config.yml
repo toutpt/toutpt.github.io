@@ -1,3 +1,7 @@
 name: JeanMichel FRANCOIS aka toutpt
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+# pygments: true
+highlighter: pygments
+url: http://toutpt.github.io
+plugins:
+  - jekyll-gist

@@ -5,6 +5,7 @@ categories: fr
 tags: 
 ---
 
+```
 package name    releases    downloads
 collective.js.s3slider  2   1583
 collective.recipe.funkload  3   2051
@@ -101,3 +102,4 @@ collective.contentrules.yearmonth   1   106
 collective.fancyboxgallery  1   83
 collective.portlet.fancyboxgallery  1   77
 total   288 201562
+```
