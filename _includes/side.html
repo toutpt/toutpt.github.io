@@ -1,25 +1,21 @@
-<img src="{{ site.baseurl }}assets/imgs/makina-corpus.png" class="img-thumbnail"/>
-<div class="panel panel-default">
-  <div class="panel-heading">R&eacute;seaux sociaux</div>
-  <div class="panel-body">
-    <ul class="nav">
-        <li><a href="https://www.twitter.com/toutpt_fr"><i class="icon-twitter"></i>Twitter (Anglais)</a></li>
-        <li><a href="http://www.linkedin.com/profile/view?id=42808053"><i class="icon-linkedin"></i>Linkedin</a></li>
-        <li><a href="http://stackoverflow.com/users/622081/toutpt"><i class="icon-stackexchange"></i>Stack</a></li>
-        <li><a href="https://github.com/toutpt"><i class="icon-github-alt"></i>Github</a></li>
-        <li><a href="https://github.com/jmfrancois"><i class="icon-github-alt"></i>Github Talend ...</a></li>
-        <li><a href="http://www.doyoubuzz.com/jeanmichel-francois/"><i class="icon-user"></i>Doyoubuzz (CV)</a></li>
-        <li><a href="https://www.npmjs.com/~toutpt">NPM</a></li>
-    </ul>
+<div class="card card-default mb-3">
+  <div class="card-body">
+    <div class="card-title">Jean-Michel FRANCOIS</div>
+    <p>Actuellement je travaille pour <a href="https://talend.com">Talend</a> en tant qu' Architect frontend</p>
+    <img src="{{ site.baseurl }}/assets/imgs/profile-small.jpg" class="img-thumbnail"/>
+    <img src="{{ site.baseurl }}/assets/imgs/talend.jpg" class="img-thumbnail"/>
   </div>
 </div>
-<div class="panel panel-default">
-  <div class="panel-heading">Articles</div>
-  <div class="panel-body">
-     <ul class="nav nav-pills nav-stacked">
-       {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-       {% endfor %}
-     </ul>
+<div class="card card-default">
+  <div class="card-body">
+    <div class="card-title">Tags</div>
+     <ul class="list-unstyled">
+        {% for tag in site.tags %}
+          {% assign t = tag | first %}
+          {% assign posts = tag | last %}
+          <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
+        {% endfor %}
+      </ul>
+
   </div>
 </div>

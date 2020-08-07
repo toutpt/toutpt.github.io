@@ -2,7 +2,7 @@
 layout: post
 title: collective.gallery 1.0 et 2.X
 categories: fr
-tags: 
+tags: plone module gallery
 ---
 
 Je viens juste de sortir la première version officiellement stable 1.0.

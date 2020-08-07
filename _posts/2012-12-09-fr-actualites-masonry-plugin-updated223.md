@@ -2,7 +2,7 @@
 layout: post
 title: Mise à jour du plugin Masonry
 categories: fr
-tags: 
+tags: plone module
 ---
 
 Le module [collective.masonry](http://pypi.python.org/pypi/collective.masonry) a été mis à jour ! Les nouveautés sont:

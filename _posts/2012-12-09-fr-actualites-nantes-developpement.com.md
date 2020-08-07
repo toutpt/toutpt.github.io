@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "Nantes Métropole Développement"
+title:  Nantes Métropole Développement
 categories: fr
 tags: réalisation plone
 ---
 
 C'est en juillet 2010 que j'avais annoncé la nouvelle version du site Internet
+
 [nantes-developpement](http://www.nantes-developpement.com).
 
 Ce projet utilisant beaucoup de modules, je vous fais profiter de ce choix:

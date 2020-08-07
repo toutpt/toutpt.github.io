@@ -2,8 +2,11 @@
 layout: post
 title: Contributions pypi
 categories: fr
-tags: 
+tags: plone module
 ---
+
+Faire le point sur la liste des modules que j'ai réalisé fut un moment "satisfaisant".
+Vous trouverez cette liste ci après.
 
 ```
 package name    releases    downloads

@@ -2,11 +2,12 @@
 layout: post
 title:  "Le site Internet du Salon Natura 2012"
 categories: fr
-tags: réalisation plone
+tags: plone réalisation
 ---
 
 Le Salon Natura est le plus grand salon bio de l'ouest.
 Il aura lieu cette année du 23 au 26 Mars 2012.
+
 Le site Internet [Salon Natura](http://www.salon-natura.com/) utilise le [CMS Plone](http://plone.org) avec les modules suivants:
 
 * collective.addthis

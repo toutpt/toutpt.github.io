@@ -2,7 +2,7 @@
 layout: post
 title: Comment tester un module Plone en 10 minutes
 categories: fr
-tags: 
+tags: plone
 ---
 
 # Introduction
@@ -29,9 +29,10 @@ Sinon c'est pas bon signe, votre module ne fait pas partie de la communauté Plo
 
 ## Initialisation (2 minutes)
 
+Disons que nous voulons tester collective.galleria
 
-    svn co https://svn.plone.org/collective/collective.lemodule/trunk collective.lemodule
-    /my/python/2.6/bin/python bootstrap.py
+    git clone https://github.com/collective/collective.galleria.git collective.galleria
+    python bootstrap.py
     bin/buildout
     bin/instance fg
 
@@ -46,7 +47,7 @@ de la variable package-name par le nom du module que vous souhaitez tester
 
 ## Lecture du code (3 minutes)
 
-Il faut jeter un oeil pour savoir:
+Il faut jeter un oeil pour vérifier quelques points:
 
 * setup.py il y a des dépendances ?
 * [src/]collective/package/profiles/default/* Qu'est ce que le module installe, un tool ? un type de contenu ? des vues ? ...)
@@ -59,5 +60,13 @@ Il faut jeter un oeil pour savoir:
 * installer le module
 * tester les fonctionnalités que vous avez compris du default profile du module
 
-Si Il vous reste un peu de temps tu peux faire la traduction directement et faire un mail sur la liste de diffusion plone-fr.
+Si Il vous reste un peu de temps vous pouvez faire la traduction directement et faire un mail sur la liste de diffusion plone-fr.
 
+# Conclusion
+
+On ne prend pas assez le temps de vérifier les dépendances et l'état d'un module.
+Le problème c est qu'après quand il y a un soucis sur la production c est bien vous qu'on va venir voir,
+et vous serez responsable de ce code.
+
+C'est bien la que le logiciel libre prend tout son sens. En ayant des gens capable de faire maintenir du code
+écrit par quelqu'un qui n'est plus la.

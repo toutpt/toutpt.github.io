@@ -2,7 +2,7 @@
 layout: post
 title: Présentation du registre de configuration Plone
 categories: fr
-tags: 
+tags: plone
 ---
 
 Le nouveau moteur de configuration est disponible sous forme de module additionnel depuis Plone4:

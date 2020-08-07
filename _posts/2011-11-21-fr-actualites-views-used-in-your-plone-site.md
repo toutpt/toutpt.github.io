@@ -2,7 +2,7 @@
 layout: post
 title:  "Comment connaitre les vues utilisées dans votre site Plone"
 categories: fr
-tags: réalisation plone
+tags: plone gist
 ---
 
 

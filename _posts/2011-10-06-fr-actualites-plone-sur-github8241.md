@@ -2,7 +2,7 @@
 layout: post
 title: Le code source du CMS Plone est maintenant sur Github
 categories: fr
-tags: 
+tags: plone
 ---
 
 Après un an d'experience pour les modules additionnels via la création de
