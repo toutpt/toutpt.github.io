@@ -1,7 +1,5 @@
 name: JeanMichel FRANCOIS aka toutpt
 markdown: kramdown
-# pygments: true
-highlighter: pygments
 baseurl: ""
 url: http://toutpt.github.io
 github_username: toutpt
