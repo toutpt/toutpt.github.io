@@ -1,13 +1,26 @@
 body {
-    background-color: #C7D7F0;
     color: #4B5463;
 }
 h1, h2, h3, h4, h5, h6, p {
     color: #4B5463;
 }
 a {
-    color: #162731
+    color: #50A3D9
 }
 a:hover {
-    color: #243536
+    color: #58B1E7
+}
+.jumbotron {
+    background-color: White;
+    border: 1px solid #50A3D9;
+}
+.card {
+    border-color: #50A3D9;
+}
+.list-overflow {
+    max-height: 300px;
+    overflow: auto;
+}
+.img-50 {
+    max-width: 50%;
 }

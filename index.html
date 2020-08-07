@@ -4,14 +4,13 @@ title: Blog
 ---
 
 <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
+  <h1 class="display-4">> Hello, world!</h1>
   <p class="lead">Du CMS python au frontend javascript ... venez faire le plein de technologies !</p>
   <hr class="my-4">
-  <p>Passioné par le web et les technologies j'aime developer des applications et des outils. Je partage ici quelques connaissances avec vous.</p>
+  <p>Passionné par le web et les technologies j'aime développer des applications et des outils. Je partage ici quelques connaissances avec vous.</p>
 </div>
-<div class="card card-default">
-  <div class="card-body">
-    <h3 class="card-title">Les derniers articles</h3>
+<div class="container">
+    <h3>Les derniers articles</h3>
     <ul class="list-unstyled">
     {% for post in paginator.posts %}
         <li>
@@ -37,6 +36,5 @@ title: Blog
       {% else %}
         <span title="Suivant"><i class="fa fa-arrow-right"></i></span>
       {% endif %}
-    </div>
   </div>
 </div>
