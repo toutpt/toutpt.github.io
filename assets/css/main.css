@@ -24,3 +24,7 @@ a:hover {
 .img-50 {
     max-width: 50%;
 }
+.highlighter-rouge {
+    max-height: 300px;
+    overflow: auto;
+}
