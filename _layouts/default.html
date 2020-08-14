@@ -21,6 +21,22 @@
     </div>
 
     {% include footer.html %}
-
+  <script>
+  (function () {
+    function createTitle(t) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        li.appendChild(a);
+        a.setAttribute('href', '#' + t.id);
+        a.textContent = t.textContent;
+        return li;
+    }
+    var tocElement = document.getElementById('toc');
+    var h2s = tocElement.parentElement.parentElement.parentElement.getElementsByTagName('h2');
+    for (var i = 0; i < h2s.length; i++) {
+        tocElement.appendChild(createTitle(h2s[i]));
+    }
+})();
+  </script>
   </body>
 </html>
